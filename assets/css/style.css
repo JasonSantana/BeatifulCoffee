@@ -487,9 +487,9 @@ input {
 	}
 }
 
-@media only screen and (min-width: 430px) and (height: 932px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-width: 430px) and (-webkit-device-pixel-ratio: 3) {
 	.show {
-		transform: translateX(250px);
+		transform: translateX(120%);
 	}
 
 	h1 {
@@ -501,8 +501,17 @@ input {
 	}
 
 	.hero img {
+		display: none;
 		height: 745px;
 		width: 430px;
+	}
+
+	.h {
+		background-image: url("/assets/img/coffee.png");
+		height: 50vh;
+		width: auto;
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 
 	.logo {
@@ -1280,7 +1289,4 @@ input {
 		width: 2rem;
 		margin: 2em 2.5em;
 	}
-}
-
-@media only screen and (width: 430px) and (height: 932px) and (-webkit-device-pixel-ratio: 3) {
 }
