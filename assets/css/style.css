@@ -8,7 +8,7 @@
 
 nav {
 	height: 10vh;
-	width: 100%;
+	max-width: 100%;
 }
 
 .nav-items {
@@ -308,7 +308,7 @@ input {
 	transform: scale(1.1);
 }
 
-@media only screen and (min-width: 375px) and (max-width: 389px) {
+@media only screen and (min-width: 375px) and (height: 667px) and (-webkit-device-pixel-ratio: 2) {
 	.show {
 		transform: translateX(180px);
 	}
@@ -487,7 +487,7 @@ input {
 	}
 }
 
-@media only screen and (min-width: 430px) and (max-width: 767px) {
+@media only screen and (min-width: 430px) and (height: 932px) and (-webkit-device-pixel-ratio: 3) {
 	.show {
 		transform: translateX(250px);
 	}
@@ -1280,4 +1280,7 @@ input {
 		width: 2rem;
 		margin: 2em 2.5em;
 	}
+}
+
+@media only screen and (width: 430px) and (height: 932px) and (-webkit-device-pixel-ratio: 3) {
 }
